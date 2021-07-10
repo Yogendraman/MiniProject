@@ -1,14 +1,13 @@
 # Name of the project
-PROJECT_NAME = CGPA provider
+PROJECT_NAME = CGPA_provider
 
 # Output directory
 BUILD = build
 
 # All source code files
-SRC = project_main.c\
-src/Attendance.c
-src/marks.c
-src/fun.h
+SRC=src/Attendance.c\
+src/marks.c\
+
 # All test source files
 TEST_SRC = src/Attendance.c\
 src/marks.c\
