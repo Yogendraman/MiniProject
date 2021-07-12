@@ -20,7 +20,7 @@ int main()
   }
   printf("Enter your attendance\n");
   scanf("%d",&d);
-  attend(d); 
+  printf(attend(d)); 
   for(int i=0;i<=b;i++){
     e=e+arr1[i];
   }

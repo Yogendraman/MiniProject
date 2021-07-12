@@ -1,29 +1,30 @@
 #include "fun.h"
 #include<stdio.h>
-int attend(int a)
+char* attend(int a)
 {
     if (a>100){
-        printf("Please enter valid attendance. \n");
+        return("Please enter valid attendance.");
     }
     else if (a==100)
     {
-        printf("Extraordinary Attendance. \n");
+        return("Extraordinary Attendance.");
     }
     
     else if(a>90 && a<99)
     {
-        printf("Excellent Attendance.");
+        return("Excellent Attendance.");
     }
     else if (a>70 && a<89)
     {
-        printf("Good Attendance.\n");
+        return("Good Attendance.");
     }
     else if (a>50 && a<69)
     {
-        printf("Satisfactory Attendance.\n");
+        return("Satisfactory Attendance.");
     }
     else 
     {
-        printf("Poor Attendance.\n");
+        return("Poor Attendance.\n");
     }
+    return 0;
 }
