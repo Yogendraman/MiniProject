@@ -1,8 +1,7 @@
 #include "unity.h"
-#include <fun.h>
+#include "fun.h"
 
 /* Modify these two lines according to the project */
-#include <fun.h>
 #define PROJECT_NAME    "CGPA Provider"
 
 /* Prototypes for all the test functions */
