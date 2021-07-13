@@ -4,3 +4,5 @@
 [![cppcheck-action](https://github.com/Yogendraman/MiniProject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Yogendraman/MiniProject/actions/workflows/cppcheck.yml)
 
 [![Git Inspector](https://github.com/Yogendraman/MiniProject/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Yogendraman/MiniProject/actions/workflows/gitinspector.yml)
+
+[![C windows Build](https://github.com/Yogendraman/MiniProject/actions/workflows/windows-build.yml/badge.svg)](https://github.com/Yogendraman/MiniProject/actions/workflows/windows-build.yml)
