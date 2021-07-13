@@ -1,9 +1,9 @@
 name: CodeQuality Dynamic Code Analysis Valgrind
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   test:
