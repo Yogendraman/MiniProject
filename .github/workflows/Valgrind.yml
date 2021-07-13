@@ -22,4 +22,4 @@ jobs:
     - name: make test
       run: make test -C 3_Implementation/ 
     - name: make valgrind
-      run: valgrind ./3_Implementation/Build/CGPA.out
+      run: valgrind ./MiniProject/3_Implementation/Build/CGPA.out
