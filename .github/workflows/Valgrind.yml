@@ -20,4 +20,4 @@ jobs:
     - name: make test
       run: |
         make test -C 3_Implementation/
-        valgrind ./3_Implementation/Build/CGPA.out
+        valgrind ./3_Implementation/Build/CGPA.out test
